@@ -62,7 +62,7 @@ def delete_task(task_id):
     db.session.commit()
     flash("Task deleted.", "warning")
     return redirect(url_for("index"))
-
+# Try a new AI like groqe #
 @app.route("/ai_suggest/<int:task_id>")
 def ai_suggest(task_id):
     task = Task.query.get_or_404(task_id)
