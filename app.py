@@ -76,5 +76,4 @@ def ai_suggest(task_id):
 if __name__ == "__main__":
     with app.app_context():
         db.create_all()
-    # For HTTPS later: app.run(ssl_context=('cert.pem', 'key.pem'))
     app.run(debug=True)
