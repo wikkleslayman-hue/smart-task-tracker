@@ -1,0 +1,129 @@
+/* Base styles */
+body {
+    background: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+h1 {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    transition: color 0.4s ease;
+}
+
+/* App logo */
+.app-logo {
+    font-weight: bold;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Flash messages */
+.alert {
+    border-radius: 8px;
+    font-size: 0.95rem;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Form styling */
+form input, form select {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+form button {
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* Table styling */
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.table th {
+    background: #343a40;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.table td {
+    vertical-align: middle;
+    transition: color 0.4s ease;
+}
+
+/* Badge colors */
+.badge.bg-secondary {
+    background: linear-gradient(90deg, #6c757d, #495057);
+    transition: background 0.4s ease;
+}
+
+.badge.bg-warning {
+    background: linear-gradient(90deg, #ffc107, #ff9800);
+    color: #000;
+    transition: background 0.4s ease, color 0.4s ease;
+}
+
+.badge.bg-danger {
+    background: linear-gradient(90deg, #dc3545, #b71c1c);
+    transition: background 0.4s ease;
+}
+
+.badge.bg-success {
+    background: linear-gradient(90deg, #28a745, #218838);
+    transition: background 0.4s ease;
+}
+
+/* Buttons */
+.btn-sm {
+    border-radius: 6px;
+    font-weight: 500;
+    margin-right: 4px;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.btn-info {
+    background: linear-gradient(90deg, #17a2b8, #0dcaf0);
+    border: none;
+}
+
+/* Dark mode */
+.dark-mode {
+    background: #121212;
+    color: #f1f1f1;
+}
+
+.dark-mode h1 {
+    color: #f1f1f1;
+}
+
+.dark-mode .table {
+    background: #1e1e1e;
+    color: #f1f1f1;
+}
+
+.dark-mode .table th {
+    background: #333;
+    color: #fff;
+}
+
+.dark-mode .alert {
+    background: #2c2c2c;
+    color: #f1f1f1;
+    border: 1px solid #444;
+}
+
+/* AI Suggest Pane */
+#aiPane {
+    transition: max-height 0.4s ease, background-color 0.4s ease, color 0.4s ease;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
