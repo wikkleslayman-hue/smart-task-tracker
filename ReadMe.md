@@ -10,7 +10,6 @@ A web application buit with Flask and Python for managing everyday tasks, tracki
 ## Setup Instructions
 1. Clone the repository
 
-1. Clone the repository:
 git clone https://github.com/your-username/smart-task-tracker.git
 
 2. Install dependencies:
@@ -22,3 +21,6 @@ GROQ_API_KEY=your_groq_api_key
 
 4. Run the application:
 python app.py
+
+## License
+MIT License
